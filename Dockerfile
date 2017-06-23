@@ -10,7 +10,7 @@ RUN apt-get -yqq update \
         pandoc \
         plantuml \
         unzip \
-	tex-live \
+	texlive \
     && pip install -U \
         Sphinx \
         pygments \
